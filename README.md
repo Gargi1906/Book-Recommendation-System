@@ -15,8 +15,11 @@ The Book Recommendation System is built using HTML, CSS, and JavaScript. It leve
 
 # Technologies Used
 HTML
+
 CSS
+
 JavaScript
+
 Google Books API
 
 # Usage
