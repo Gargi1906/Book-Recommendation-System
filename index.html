@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Book Recommendations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Personalized Book Recommendations</h1>
+    <div id="preferences">
+        <h2>Enter Your Preferences</h2>
+        <label for="genre">Favorite Genre:</label>
+        <input type="text" id="genre" placeholder="e.g., Fiction, Mystery, Science Fiction">
+        <label for="author">Favorite Author:</label>
+        <input type="text" id="author" placeholder="e.g., J.K. Rowling, George Orwell">
+        <button id="submitPreferences">Submit Preferences</button>
+    </div>
+    <div id="recommendations">
+        <h2>Recommended Books</h2>
+        <ul id="bookList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
